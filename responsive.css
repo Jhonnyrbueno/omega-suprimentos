@@ -1,0 +1,22 @@
+@media (max-width: 768px) {
+    .image-wrapper{
+        position: fixed;
+    }
+    .navbar-brand{
+        content: url(images/logo-omega.png);
+        width: 50%;
+        height: 30%;
+        top: 1px;
+        margin-left: 30px;
+    }
+    button.navbar-toggler{
+        margin-top: -25px;
+    }
+    .navbar-collapse .navbar-nav {
+        padding-left: 70%;
+        margin-top: -50px;
+        }
+    .img-logo {
+        display: none;
+    }
+}
