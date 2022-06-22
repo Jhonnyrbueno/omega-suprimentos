@@ -50,6 +50,13 @@
     button.navbar-toggler {
         margin-top: 0px;
     }
+    .navbar-brand{
+        content: url(images/logo-omega\ -mobile.png);
+        width: 60%;
+        height: 2%;
+        top: 1px;
+        margin-left: 30px;
+    }
     .navbar-light .navbar-nav .active>.nav-link {
         font-size: 0.8rem;
         font-weight: 400;
