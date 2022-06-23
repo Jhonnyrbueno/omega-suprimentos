@@ -3,11 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    text-rendering: optimizelegibility;
+    -webkit-font-smoothing: antialiased;
+}
 body {
     background-image: url(images/Cores-Luminoso.jpg);
     background-repeat: no-repeat;
     width: 98vw ;
-    height: 500vh;
+    height: 100vh;
     object-fit: cover;
 }
 .navbar-custom {
@@ -17,27 +21,13 @@ body {
 }
 .navbar-brand{
     content: url(images/logo-omega\ -mobile.png);
-    width: 20%;
-    height: 5%;
+    width: 30%;
+    height: 7.5%;
     margin-left: 30px;
-}
-.navbar-light .navbar-nav .nav-link {
-    color: #f8f9fa;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-right: 15px;
-    padding: 10px;
-}
-.navbar-light .navbar-nav .nav-link:hover {
-    background: #f8f9fa;
-    color: #ff0000;
-    font-weight: 600;
-    border-radius: 5px;
 }
 .navbar-light .navbar-nav .active>.nav-link {
     color: #f8f9fa;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 600;
     padding: 10px;
 
@@ -48,15 +38,70 @@ body {
     font-weight: 600;
     border-radius: 5px;
 }
-.img-logo {
-    display: flex;
-    justify-content: flex-start;
-    width: 64%;
-    height: 14%;
-    position: fixed;
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 15px;
+    padding: 10px;
 }
-.img-logo img {
-    margin-top: 3%;
-    margin-left: 15%;
-    width: 25%;
+.navbar-light .navbar-nav .nav-link:hover {
+    background: #f8f9fa;
+    color: #ff0000;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.start-header{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.start-header .img-header {
+    background-color: #f8f9fa;
+    z-index: 10000;
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 60px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 10%;
+}
+.text-header {
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+    margin-top: 250px;
+}
+.text-header h1 {
+    color: #f8f9fa;
+    font-size: 2.7rem;
+    font-weight: 300;
+    text-shadow: .1rem .2rem 2px rgba(0, 0, 0, 4);
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+    opacity: 0.8;
+    animation: moveBanner 1s forwards;
+
+}
+.text-header p {
+    color: #f8f9fa;
+    font-size: 1rem;
+    text-shadow: .1rem .2rem 2px rgba(0, 0, 0, 4);
+    opacity: 0.8;
+    animation: moveBanner 1s forwards;
+}
+
+@keyframes moveBanner {
+    0% {
+        transform: translateY(50rem) rotateY(-100deg);
+    }
+
+    100% {
+        transform: translateX(0) rotateX(0);
+        opacity: 1;
+    }
+
 }

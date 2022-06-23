@@ -38,8 +38,6 @@
     }
 }
 
-
-
 @media (max-width: 768px) {
     .img-logo {
         display: none;
@@ -68,5 +66,12 @@
     .navbar-collapse .navbar-nav {
         padding-left: 78%;
         margin-top: 0px;
+    }
+}
+
+@media (max-width: 310px) {
+    .navbar-toggler-icon {
+        width: 1.3em;
+        height: 1.3em;
     }
 }
