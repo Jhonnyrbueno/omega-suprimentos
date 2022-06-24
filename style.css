@@ -73,7 +73,7 @@ body {
     width: 300px;
     height: 300px;
     margin-top: 120px;
-    margin-left: 85px;
+    margin-left: 15%;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
     border-top-right-radius: 50%;
@@ -82,7 +82,7 @@ body {
 
 .start-header .img-header img {
     width: 130%;
-    margin-left: 1%;
+    margin-left: 10%;
 }
 
 .text-header {
