@@ -1,8 +1,9 @@
 @media (max-width: 991px) {
     .image-wrapper{
         position: fixed;
-        background-color: #fb022380;
+        background-color: #fb0223e3;
         width: 100vw;
+        z-index: 100000;
     }
     .navbar-brand{
         content: url(images/logo-omega\ -mobile.png);
@@ -36,6 +37,40 @@
     .img-logo {
         display: none;
     }
+    .start-header {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .start-header .img-header {
+        background-color: #f8f9fa;
+        z-index: 10000;
+        width: 17rem;
+        height: 17rem;
+        margin-top: 5rem;
+    }
+    .start-header .img-header img {
+        width: 130%;
+    }
+    .text-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1rem;
+        margin-top: 12rem;
+    }
+    .text-header h1 {
+        color: #f8f9fa;
+        font-size: 2.7rem;
+        font-weight: 400;
+    }
+    .text-header p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
 }
 
 @media (max-width: 768px) {
@@ -67,11 +102,58 @@
         padding-left: 78%;
         margin-top: 0px;
     }
+    .start-header {
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .start-header .img-header {
+        background-color: #f8f9fa;
+        z-index: 10000;
+        width: 14rem;
+        height: 14rem;
+        margin-top: 2rem;
+        margin-right: 4rem;
+    }
+    .start-header .img-header img {
+        width: 130%;
+    }
+    .text-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1rem;
+        margin-top: 7rem;
+        width: 75vw;
+    }
+    .text-header h1 {
+        color: #f8f9fa;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    .text-header p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
 }
 
 @media (max-width: 310px) {
     .navbar-toggler-icon {
         width: 1.3em;
         height: 1.3em;
+    }
+    .start-header .img-header {
+        background-color: #f8f9fa;
+        z-index: 10000;
+        width: 12rem;
+        height: 12rem;
+        margin-top: 2rem;
+        margin-right: 2rem;
+    }
+    .start-header .img-header img {
+        width: 120%;
     }
 }

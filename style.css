@@ -65,15 +65,15 @@ body {
     display: flex;
     width: 98vw;
     height: 100vh;
+    justify-content: center;
 }
 
 .start-header .img-header {
     background-color: #f8f9fa;
     z-index: 10000;
-    width: 300px;
-    height: 300px;
-    margin-top: 120px;
-    margin-left: 85px;
+    width: 17rem;
+    height: 17rem;
+    margin-top: 5rem;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
     border-top-right-radius: 50%;
@@ -82,14 +82,13 @@ body {
 
 .start-header .img-header img {
     width: 130%;
-    margin-left: 1%;
 }
 
 .text-header {
     display: flex;
     flex-direction: column;
-    margin-left: 180px;
-    margin-top: 250px;
+    margin-left: 15rem;
+    margin-top: 12rem;
 }
 
 .text-header h1 {
