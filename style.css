@@ -65,6 +65,7 @@ body {
     display: flex;
     width: 98vw;
     height: 100vh;
+    justify-content: center;
 }
 
 .start-header .img-header {
@@ -73,7 +74,7 @@ body {
     width: 300px;
     height: 300px;
     margin-top: 120px;
-    margin-left: 15%;
+    margin-left: 0%;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
     border-top-right-radius: 50%;
@@ -82,7 +83,7 @@ body {
 
 .start-header .img-header img {
     width: 130%;
-    margin-left: 10%;
+    margin-left: 0%;
 }
 
 .text-header {
