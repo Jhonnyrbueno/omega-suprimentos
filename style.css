@@ -149,7 +149,7 @@ main {
     align-items: center;
     justify-content: center;
     text-align: justify;
-    background-color: #1a1b1b6c;
+    background-color: #feffff6c;
     width: 60vw;
     height: 80vh;
     margin-left: 20%!important;
@@ -162,5 +162,6 @@ main {
 }
 .h-empresa p{
     font-size: 1.2rem;
-    color: #f8f9fa;
+    color: #19191a;
+    font-weight: 600;
 }
