@@ -142,23 +142,26 @@ main {
     color: #f8f9fa;
     border-bottom: solid 3px #ff0000;
     text-transform: uppercase;
-    margin-bottom: 3%;
+    margin-bottom: 1%;
 }
 .h-empresa {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: justify;
-    background-color: #feffff6c;
-    width: 60vw;
-    height: 80vh;
-    margin-left: 20%!important;
-    padding: 5%;
-    border-bottom-left-radius: 5%;
-    border-top-left-radius: 5%;
-    border-bottom-right-radius: 5%;
-    border-top-right-radius: 5%;
+    background-color: #feffff00;
+    width: 80vw;
+    height: 35vh;
+    margin-left: 10%!important;
+    padding: 2%;
+    border-bottom-left-radius: 2%;
+    border-top-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    border-top-right-radius: 2%;
     margin-bottom: 5%;
+}
+.h-empresa b{
+    text-transform: uppercase;
 }
 .h-empresa p{
     font-size: 1.2rem;
