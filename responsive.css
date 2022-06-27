@@ -104,6 +104,9 @@
     .img-logo {
         display: none;
     }
+    .start-header .img-header {
+        margin-left: -10%;
+    }
     .empresa {
         margin-top: 20%;
     }
@@ -171,6 +174,9 @@
         height: 14rem;
         margin-top: 2rem;
         margin-right: 4rem;
+    }
+    .start-header .img-header {
+        margin-left: 0%;
     }
     .start-header .img-header img {
         width: 130%;
