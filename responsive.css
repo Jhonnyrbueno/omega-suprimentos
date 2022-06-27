@@ -3,11 +3,13 @@
         height: 64vh;
     }
 }
+
 @media (max-width: 1261px) {
     .start-header {
         height: 84vh;
     }
 }
+
 @media (max-width: 1024px) {
     .start-header {
         height: 70vh;
@@ -21,7 +23,11 @@
         margin-top: 13rem;
     }
 }
+
 @media (max-width: 991px) {
+    .navbar-light .navbar-toggler {
+        border-color: #212529!important;
+    }
     .image-wrapper{
         position: fixed;
         background-color: #fb0223e3;
