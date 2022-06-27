@@ -6,7 +6,7 @@
 
 @media (max-width: 1261px) {
     .start-header {
-        height: 84vh;
+        height: 74vh;
     }
 }
 
@@ -114,10 +114,14 @@
         margin-left: -10%;
     }
     .empresa {
-        margin-top: 20%;
+        margin-top: 8%;
     }
     .b-empresa h2 {
-        margin-bottom: 5%;
+        margin-bottom: 1%;
+        margin-top: 12%;
+    }
+    .h-empresa p {
+        font-size: 0.8rem;
     }
 }
 
@@ -129,13 +133,21 @@
 
 @media (max-width: 580px) {
     .empresa {
+        margin-top: 0%;
+    }
+    .b-empresa h2 {
         margin-top: 30%;
+        margin-bottom: 5%;
     }
 }
 
 @media (max-width: 496px) {
     .empresa {
-        margin-top: 35%;
+        margin-top: 0%;
+    }
+    .b-empresa h2 {
+        margin-top: 50%;
+        margin-bottom: 10%;
     }
     .h-empresa p {
         font-size: 0.9rem;
@@ -205,6 +217,9 @@
         font-weight: 400;
     }
     .empresa {
+        margin-top: 0%;
+    }
+    .b-empresa h2 {
         margin-top: 20%;
     }
     .h-empresa p {
@@ -212,7 +227,7 @@
     }
 }
 
-@media (max-width: 319px) {
+@media (max-width: 321px) {
     .navbar-toggler-icon {
         width: 1.3em;
         height: 1.3em;
@@ -227,6 +242,12 @@
     }
     .start-header .img-header img {
         width: 120%;
+    }
+    .empresa {
+        margin-top: 0%;
+    }
+    .b-empresa h2 {
+        margin-top: 20%;
     }
     .h-empresa p {
         font-size: 0.7rem;

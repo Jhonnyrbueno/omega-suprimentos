@@ -143,6 +143,7 @@ main {
     border-bottom: solid 3px #ff0000;
     text-transform: uppercase;
     margin-bottom: 1%;
+    margin-top: 5%;
 }
 .h-empresa {
     display: flex;
