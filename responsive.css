@@ -80,6 +80,7 @@
         width: 17rem;
         height: 17rem;
         margin-top: 5rem;
+        margin-left: 0%;
     }
     .start-header .img-header img {
         width: 130%;
@@ -103,6 +104,45 @@
     .empresa {
         margin-top: 15%;
         width: 100vw;
+    }
+    .image-label-right{
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .image-label-right img{
+        width: 30%;
+        height: 30%;
+        margin-bottom: 5%;
+        margin-left: 0%;
+    }
+    .image-label-right p{
+        font-size: 1rem;
+        font-weight: 700;
+        text-align: justify;
+        margin-bottom: 5%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+    .image-label-left{
+        justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .image-label-left img{
+        width: 30%;
+        height: 30%;
+        margin-bottom: 5%;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    .image-label-left p{
+        font-size: 1rem;
+        font-weight: 700;
+        align-items: justify;
+        margin-bottom: 5%;
+        margin-right: 10%;
+        margin-left: 10%;
     }
 }
 
@@ -151,6 +191,14 @@
     }
     .h-empresa p {
         font-size: 0.9rem;
+    }
+    .image-label-right img{
+        width: 40%;
+        height: 40%;
+    }
+    .image-label-left img{
+        width: 40%;
+        height: 40%;
     }
 }
 
@@ -225,6 +273,14 @@
     .h-empresa p {
         font-size: 0.8rem;
     }
+    .image-label-right p{
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
+    .image-label-left p{
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
 }
 
 @media (max-width: 321px) {
@@ -251,5 +307,13 @@
     }
     .h-empresa p {
         font-size: 0.7rem;
+    }
+    .image-label-right p{
+        text-align: left;
+        margin-bottom: 10%;
+    }
+    .image-label-left p{
+        text-align: left;
+        margin-bottom: 10%;
     }
 }
