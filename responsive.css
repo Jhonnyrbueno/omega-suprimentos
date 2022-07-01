@@ -144,6 +144,12 @@
         margin-right: 10%;
         margin-left: 10%;
     }
+    .parallax span{
+        margin-left: 0%;
+    }
+    .logo-omega img{
+        margin-left: 30%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -169,6 +175,14 @@
     .h-empresa p{
         font-size: 1rem;
     }
+    .parallax span{
+        margin-left: 0%;
+        font-size: 1.7rem;
+        margin-top: 20%;
+    }
+    .logo-omega img{
+        margin-left: 30%;
+    }
 }
 
 @media (max-width: 580px) {
@@ -178,6 +192,14 @@
     .b-empresa h2 {
         margin-top: 30%;
         margin-bottom: 5%;
+    }
+    .parallax span{
+        margin-left: 0%;
+        font-size: 1.3rem;
+        margin-top: 20%;
+    }
+    .logo-omega img{
+        margin-left: 30%;
     }
 }
 
@@ -199,6 +221,14 @@
     .image-label-left img{
         width: 40%;
         height: 40%;
+    }
+    .parallax span{
+        margin-left: 0%;
+        font-size: 1rem;
+        margin-top: 25%;
+    }
+    .logo-omega img{
+        margin-left: 30%;
     }
 }
 
@@ -281,6 +311,14 @@
         font-size: 0.7rem;
         font-weight: 700;
     }
+    .parallax span{
+        margin-left: 0%;
+        font-size: 1rem;
+        margin-top: 30%;
+    }
+    .logo-omega img{
+        margin-left: 30%;
+    }
 }
 
 @media (max-width: 321px) {
@@ -315,5 +353,13 @@
     .image-label-left p{
         text-align: left;
         margin-bottom: 10%;
+    }
+    .parallax span{
+        margin-left: 0%;
+        font-size: 0.9rem;
+        margin-top: 50%;
+    }
+    .logo-omega img{
+        margin-left: 30%;
     }
 }
