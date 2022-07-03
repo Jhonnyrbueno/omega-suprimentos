@@ -3,12 +3,16 @@
   <head>
     <!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="responsive.css" type="text/css">
+    <link href="/your-path-to-your-compiled-css-including-fontawesome/file.css" rel="stylesheet">
+    <link href="/your_path_to_version_6_compiled_files/css/fontawesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 
     <title>Omega Suprimentos - Toner, Tintas, Cartuchos, Produto para Recarga de Cartuchos, Produto para Recarga de Toner, Peças para Impressoras, Papeis</title>
   </head>
@@ -113,21 +117,101 @@
       <div class="titulo">
         <h2>Marcas</h2>
       </div>
+
+      <div class="logo">
+
+        <p>Trabalhamos com as principais marcas do mercado.</p>
       
-      <div id="caroulseSite" class="carousel slide" data-ride="caroulse">
-        <div class="carousel-inner">
-          <div class="caroulse-item">
-
-
-
-          </div>
-        </div>
       </div>
+      
+      <div class="swiper mySwiper container">
+        <div class="swiper-wrapper content">
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image" id="img">
+                <img src="images/chinamate.png" alt="Chinamate">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="images/inkmax.png" alt="Inkmax">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="images/high fusion.png" alt="High Fusion">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="images/Canon.png" alt="Canon">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="images/hp.png" alt="HP">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="images/epson.png" alt="Epson">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide card">
+            <div class="card-content">
+              <div class="image">
+                <img src="images/evolut.png" alt="Evolut">
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+
     </section>
   </main>
 
     <!-- JavaScript (Opcional) -->
     <script src="function.js" type="text/javaScript"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
