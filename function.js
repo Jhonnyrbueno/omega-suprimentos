@@ -26,7 +26,7 @@ function carrossel(){
 
 idx++;
 
-    if(idx > img.length -1){
+    if(idx > img.length -3){
     idx = 0;
     }
     imgs.style.transform = `translateX(${-idex * 500})`;
