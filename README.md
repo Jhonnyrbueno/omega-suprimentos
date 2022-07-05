@@ -8,4 +8,4 @@
 - Começo do banner inicial com uma introdução e imagem
 - Crição da lista de produtos com animação
 - Banner com efeito Parallax
-- Carrossel com o plugin [<a href="https://swiperjs.com">Swiper</a>]
+- Carrossel com o plugin <a href="https://swiperjs.com">Swiper</a>
