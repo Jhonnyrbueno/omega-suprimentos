@@ -157,10 +157,6 @@
 
         </div>
 
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-
       </div>
 
     </section>
@@ -172,18 +168,23 @@
     <script>
       var swiper = new Swiper(".mySwiper", {
         slidesPerView: 3,
-        spaceBetween: 1,
+        spaceEvenly: 1,
         slidesPerGroup: 3,
         loop: true,
         loopFillGroupWithBlank: true,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
+        autoplay: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause:true,
+        breakpoints: {
+          0: {
+            slidesPerView: 1,
+            slidesPerGroup:1,
+          },
+          991: {
+            slidesPerView: 3,
+            slidesPerGroup: 3,
+          },
+        }
       });
     </script>
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

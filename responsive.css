@@ -144,9 +144,25 @@
         margin-right: 10%;
         margin-left: 10%;
     }
+    .img-parallax{
+        width: 100vw;
+    }
     .parallax span{
        font-size: 200%;
        margin-top: 10%;
+    }
+    .logo p {
+        margin-top: 5%;
+        font-size: 0.7rem; 
+   }
+   .swiper {
+        height: 50%;
+   }
+    .swiper-slide img {
+        width: 70%;
+        height: 70%;
+        filter:grayscale(0%);
+        -webkit-filter:grayscale(0%);
     }
 }
 
@@ -299,6 +315,16 @@
         font-size: 0.7rem;
         font-weight: 700;
     }
+    .logo p {
+        margin-top: 5%;
+        font-size: 0.7rem; 
+   }
+   .swiper {
+        height: 30%;
+   }
+   .swiper-slide img {
+        width: 60%;
+   }
 }
 
 @media (max-width: 410px) {
@@ -308,7 +334,17 @@
     .parallax span{
        font-size: 100%;
        margin-top: 35%;
-   }
+    }
+    .logo p {
+        margin-top: 5%;
+        font-size: 0.7rem; 
+    }
+    .swiper {
+        height: 30%;
+    }
+    .swiper-slide img {
+        width: 50%;
+    }
 }
 
 @media (max-width: 321px) {
@@ -347,6 +383,16 @@
     .parallax span{
        font-size: 80%;
        margin-top: 50%;
+   }
+   .logo p {
+        margin-top: 5%;
+        font-size: 0.7rem; 
+   }
+   .swiper {
+        height: 30%;
+   }
+   .swiper-slide img {
+        width: 70%;
    }
 
 }
