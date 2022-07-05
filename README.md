@@ -1,6 +1,6 @@
 # Omega Suprimentos
 
-## Criação do site Omega Suprimetos
+## Criação do site Omega Suprimentos
 
 - Criação do menu e menu toggle
 - Regulagem do logo 
