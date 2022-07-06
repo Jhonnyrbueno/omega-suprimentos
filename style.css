@@ -150,7 +150,7 @@ h2 {
     margin-bottom: 1%;
 }
 p{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #19191a;
     font-weight: 600;
 }
@@ -227,7 +227,7 @@ p{
     display: flex;
     justify-content: center;
 }
-.catalogo button{
+button{
     background-color: #ff0000;
     color: #f8f9fa;
     padding: 2%;
@@ -306,8 +306,6 @@ button:hover{
     font-size: 18px;
     background: #fff;
     margin-bottom: 10%;
-
-    /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -327,12 +325,8 @@ button:hover{
     height: 40%;
     align-items: center;
     object-fit: cover;
-    filter:grayscale(100%);
-    -webkit-filter:grayscale(100%);
 }
 .swiper-slide img:hover {
-    filter:grayscale(0%);
-    -webkit-filter:grayscale(0%);
     transition: 1s;
     transform: scale(1.07);
 }
@@ -344,4 +338,8 @@ button:hover{
 }
 .card{
     border: 0px solid rgba(0,0,0,.125);
+}
+.contato{
+    display: flex;
+    justify-content: center;
 }

@@ -41,8 +41,12 @@
         top: 1px;
         margin-left: 30px;
     }
+    .navbar-toggler-icon{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
     button.navbar-toggler{
-        margin-top: -5px;
+        margin-top: 30px;
     }
     .navbar-light .navbar-toggler{
         color: rgb(222, 226, 230);
@@ -94,12 +98,14 @@
     }
     .text-header h1 {
         color: #f8f9fa;
-        font-size: 2.7rem;
+        font-size: 3.6rem;
         font-weight: 400;
     }
     .text-header p {
-        font-size: 1rem;
-        font-weight: 400;
+        font-size: 1.6rem;
+        font-weight: 500;
+        text-shadow: .1rem .2rem 2px rgba(0, 0, 0, 1);
+        opacity: 1.5;
     }
     .empresa {
         margin-top: 15%;
@@ -153,13 +159,13 @@
     }
     .logo p {
         margin-top: 5%;
-        font-size: 0.7rem; 
+        font-size: 1.5rem; 
    }
    .swiper {
         height: 50%;
    }
     .swiper-slide img {
-        width: 70%;
+        width: 40%;
         height: 70%;
         filter:grayscale(0%);
         -webkit-filter:grayscale(0%);
@@ -172,6 +178,17 @@
     }
     .start-header .img-header {
         margin-left: -10%;
+    }
+    .text-header h1 {
+        color: #f8f9fa;
+        font-size: 2.8rem;
+        font-weight: 400;
+    }
+    .text-header p {
+        font-size: 1.3rem;
+        font-weight: 500;
+        text-shadow: .1rem .2rem 2px rgba(0, 0, 0, 1);
+        opacity: 1.5;
     }
     .empresa {
         margin-top: 8%;
@@ -196,6 +213,17 @@
 }
 
 @media (max-width: 580px) {
+    .text-header h1 {
+        color: #f8f9fa;
+        font-size: 2.2rem;
+        font-weight: 400;
+    }
+    .text-header p {
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-shadow: .1rem .2rem 2px rgba(0, 0, 0, 1);
+        opacity: 1.5;
+    }
     .empresa {
         margin-top: 0%;
     }
@@ -206,6 +234,11 @@
 }
 
 @media (max-width: 535px) {
+    .text-header h1 {
+        color: #f8f9fa;
+        font-size: 2rem;
+        font-weight: 400;
+    }
     .h-empresa p{
         font-size: 1rem;
     }
@@ -216,6 +249,17 @@
 }
 
 @media (max-width: 496px) {
+    .text-header h1 {
+        color: #f8f9fa;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    .text-header p {
+        font-size: 0.8rem;
+        font-weight: 500;
+        text-shadow: .1rem .2rem 2px rgba(0, 0, 0, 1);
+        opacity: 1.5;
+    }
     .empresa {
         margin-top: 0%;
     }
@@ -237,8 +281,12 @@
 }
 
 @media (max-width: 425px) {
+    .navbar-toggler-icon{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
     button.navbar-toggler {
-        margin-top: 0px;
+        margin-top: 16px;
     }
     .navbar-brand{
         content: url(images/logo-omega\ -mobile.png);
