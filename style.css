@@ -150,7 +150,7 @@ h2 {
     margin-bottom: 1%;
 }
 p{
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #19191a;
     font-weight: 600;
 }
@@ -182,7 +182,7 @@ p{
     margin-bottom: 5%;
 }
 .image-label-right p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 800;
     text-transform: uppercase;
     margin-right: 15%;
@@ -203,7 +203,7 @@ p{
     margin-bottom: 5%;
 }
 .image-label-left p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 800;
     text-transform: uppercase;
     margin-right: 15%;
