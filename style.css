@@ -342,4 +342,58 @@ button:hover{
 .contato{
     display: flex;
     justify-content: center;
+    margin-bottom: 10%;
 }
+.rodape{
+    display: flex;
+    background-color: #ff0000;
+    margin-top: 15%;
+    height: 75vh;
+    width: 98.8vw;
+}
+.link-rodape{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.link-rodape.navbar-nav .active>.nav-link {
+    color: #f8f9fa;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+
+}
+
+.link-rodape .navbar-nav .active>.nav-link:hover {
+    background: #f8f9fa;
+    color: #ff0000;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.link-rodape .navbar-nav .nav-link {
+    color: #f8f9fa;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 15px;
+    padding: 10px;
+}
+
+.link-rodape .navbar-nav .nav-link:hover {
+    background: #f8f9fa;
+    color: #ff0000;
+    font-weight: 600;
+    border-radius: 5px;
+}
+.logo-empresa{
+    display: flex;
+    justify-content: end;
+    align-items: flex-start;
+}
+.logo-empresa img{
+    padding-top: 10%;
+    width: 30%;
+}
+
