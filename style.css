@@ -2,6 +2,7 @@
 
 @import "./fontawesome/scss/solid.scss";
 
+
 * {
     margin: 0;
     padding: 0;
@@ -347,15 +348,16 @@ button:hover{
 .rodape{
     display: flex;
     background-color: #ff0000;
+    align-self: flex-start;
     margin-top: 15%;
-    height: 75vh;
+    height: 55vh;
     width: 98.8vw;
 }
 .link-rodape{
     display: flex;
     align-items: flex-start;
-    margin-left: 10%;
-    margin-top: 10%;
+    margin-left: 5%;
+    margin-top: 0%;
 }
 .link-rodape.navbar-nav .active>.nav-link {
     color: #f8f9fa;
@@ -386,14 +388,70 @@ button:hover{
     color: #ff0000;
     font-weight: 600;
     border-radius: 5px;
+    width: 100%;
 }
 .logo-empresa{
     display: flex;
-    justify-content: end;
+    justify-content: start;
     align-items: flex-start;
+
 }
 .logo-empresa img{
-    padding-top: 10%;
-    width: 30%;
+    padding-top: 6%;
+    padding-bottom: 7%;
+    width: 70%;
+}
+.rodape-center {
+    display: flex;
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 25%;
+}
+.endereco {
+    display: flex;
+    flex-direction: row;
+}
+ion-icon {
+    color: #f8f9fa;
+    margin-right: 5%;
+    margin-top: 2.5%;
+}
+.rodape-center .andress h3 {
+    color: #f8f9fa;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.rodape-center p{
+    color: #f8f9fa;
+    text-transform: uppercase;
+    font-size: smaller;
+    font-weight: 400;
+    margin-top: 5%;
+}
+.rodape-right {
+    margin-right: 3%;
+}
+.map {
+    padding-top: 5%;
+    display: flex;
+    font-size: 0.6rem;
+    align-items: flex-end;
+    justify-content:flex-end;
+    padding-bottom: 2%;
+}
+.devenloper {
+    display: flex;
+    font-size: 0.6rem;
+    align-items: flex-end;
+    justify-content:flex-end;
+    width: 40vw;
+    padding-bottom: 1%;
+}
+
+.devenloper a{
+    color: #f8f9fa;
+    text-transform: uppercase;
+    text-decoration: none;
 }
 
