@@ -157,18 +157,47 @@
        font-size: 200%;
        margin-top: 10%;
     }
+    .titulo {
+        margin-top: 15%;
+    }
+    .logo {
+        padding: 5%;
+    }
     .logo p {
         margin-top: 5%;
         font-size: 1.5rem; 
    }
    .swiper {
         height: 50%;
+        margin-top: 10%;
+        margin-bottom: 10%;
    }
     .swiper-slide img {
         width: 40%;
         height: 70%;
         filter:grayscale(0%);
         -webkit-filter:grayscale(0%);
+    }
+    .rodape {
+        width: 100vw;
+        flex-direction: column;
+        height: 90vh;
+    }
+    .rodape-center {
+        align-items: flex-start;
+        margin-left: 7%;
+        margin-top: 5%;
+        border-top: solid 1px #f8f9fa;
+        width: 85%;
+        padding-top: 5%;
+    
+    }
+    .map {
+        display: none;
+    }
+    .devenloper {
+        justify-content: center;
+        width: 100vw;
     }
 }
 
