@@ -406,15 +406,35 @@ button:hover{
     margin-top: 2%;
     margin-left: 5%;
     width: 25%;
+    flex-direction: column;
 }
 .endereco {
     display: flex;
     flex-direction: row;
+    font-size: 1.2rem;
+}
+.call {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+
+.tel a {
+    color: #f8f9fa;
+    text-decoration: none;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+}
+.icon-social {
+    font-size: 2rem;
 }
 ion-icon {
     color: #f8f9fa;
     margin-right: 5%;
-    margin-top: 2.5%;
+    margin-top: 2.2%;
 }
 .rodape-center .andress h3 {
     color: #f8f9fa;

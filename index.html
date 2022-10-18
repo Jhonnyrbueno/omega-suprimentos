@@ -196,13 +196,25 @@
           <div class="rodape-center">
             <div class="andress">
               <div class="endereco">
-                <ion-icon name="map-outline"></ion-icon><h3>Endereço</h3></div>
+                <h3>Endereço</h3>
+              </div>
                  <p>Curitibanos, 411 - Térreo<b></b>
                  Bairro: Vila Nova<b></b>
                  Blumenau-SC</p>
-            </div>
-            <div class="contato">
-
+              <div class="call">
+              <h3>Contato</h3>
+                </div>
+              <div class="tel">
+                 <p><ion-icon name="call-outline"></ion-icon><a href="tel:+554733360765">(47) 3336-0765</a></p>
+                 <p><ion-icon name="logo-whatsapp"></ion-icon><a href="wa.me/5547992750880">(47) 99275-0880</a></p>
+                </div>
+              <div class="social">
+                <h3>Social</h3>
+                </div>
+                <div class="icon-social">
+                  <a href="https://www.instagram.com/omegasuprimentos/" alt="Instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+                  <a href="https://www.facebook.com/omegasuprimentos.com.br/" alt="Facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+                </div>
             </div>
           </div>
 
@@ -226,7 +238,7 @@
         loop: true,
         loopFillGroupWithBlank: true,
         autoplay: true,
-        autoplayTimeout: 10000,
+        autoplayTimeout: 100000,
         breakpoints: {
           0: {
             slidesPerView: 1,
@@ -234,7 +246,7 @@
           },
           992: {
             slidesPerView: 3,
-            slidesPerGroup: 3,
+            slidesPerGroup: 1,
           },
         }
       });
