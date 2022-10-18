@@ -9,3 +9,4 @@
 - Crição da lista de produtos com animação
 - Banner com efeito Parallax
 - Carrossel com o plugin <a href="https://swiperjs.com">Swiper</a>
+- Criação do rodapé com utilização de icones do <a href="https://ionic.io/ionicons">Ionicons</a>
