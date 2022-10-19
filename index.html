@@ -179,8 +179,11 @@
                   <img src="images/logo-omega -mobile.png" alt="Logo Omega Suprimentos" id="logo">
                 </div>
                 <li class="nav-item active color:#f8f9fa">
-                  <a class="nav-link" href="#empresa">Sobre nós<span class="sr-only">(Página atual)</span></a>
+                  <a class="nav-link" href="#">Home<span class="sr-only">(Página atual)</span></a>
                 </li>
+                <li class="nav-item color:#f8f9fa">
+                  <a class="nav-link" href="#empresa">Sobre nós</a>
+                </li> 
                 <li class="nav-item color:#f8f9fa">
                   <a class="nav-link" href="#">Politica de Frete</a>
                 </li> 
@@ -220,7 +223,7 @@
           </div>
           <div class="rodape-right">
             <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.845894695068!2d-49.091294184955125!3d-26.90838548312948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df18cffbe958d7%3A0x91aaf19bbc7ad7f3!2sOmega%20Suprimentos!5e0!3m2!1spt-BR!2sbr!4v1666053542388!5m2!1spt-BR!2sbr" width="355" height="305" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3557.845894695068!2d-49.091294184955125!3d-26.90838548312948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94df18cffbe958d7%3A0x91aaf19bbc7ad7f3!2sOmega%20Suprimentos!5e0!3m2!1spt-BR!2sbr!4v1666053542388!5m2!1spt-BR!2sbr" width="365" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
           </div>
     </footer>
     <div class="developer">
@@ -251,6 +254,22 @@
           },
         }
       });
+    </script>
+
+    <!-- back-button -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("body").append("<a href='#' class='back-to-top'><ion-icon name='caret-up-outline'></ion-icon></a>"),
+          $(function toTop() {
+            $(window).scroll(function () {
+              $(this).scrollTop() > 400 ? $(".back-to-top").fadeIn() : $(".back-to-top").fadeOut()
+            }), $(".back-to-top").click(function () {
+              return $("html, body").animate({
+                scrollTop: 0
+              }, 900), !1
+            })
+          });
+      })
     </script>
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

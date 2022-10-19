@@ -404,7 +404,7 @@ button:hover{
 }
 .logo-empresa img{
     padding-top: 6%;
-    padding-bottom: 7%;
+    padding-bottom: 6%;
     width: 70%;
 }
 .rodape-center {
@@ -485,5 +485,20 @@ ion-icon {
     text-transform: uppercase;
     text-decoration: none;
 }
+.back-to-top {
+    color:black;
+    position: fixed;
+    z-index: 999;
+    bottom: 8rem;
+    right: 1.5rem;
+    display:none;
+}
+.back-to-top:active, .back-to-top:focus, .back-to-top:hover {
+    text-decoration: none;
+    color:#1f201f;  
+}
 
+.back-to-top ion-icon {
+    font-size: 3em;
+}
 
