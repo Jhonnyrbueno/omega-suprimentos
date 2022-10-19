@@ -470,7 +470,7 @@ ion-icon {
     justify-content:flex-end;
     padding-bottom: 2%;
 }
-.devenloper {
+.developer {
     display: flex;
     font-size: 0.6rem;
     align-items: flex-end;
@@ -479,12 +479,11 @@ ion-icon {
     width: 98.8vw;
     padding-top: 2%;
     padding-bottom: 1%;
-
 }
-
-.devenloper a{
+.developer a{
     color: #f8f9fa;
     text-transform: uppercase;
     text-decoration: none;
 }
+
 
