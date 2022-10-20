@@ -16,11 +16,18 @@
 }
 
 body {
-    background-image: url(images/Cores-Luminoso.png);
-    background-repeat: no-repeat;
-    width: 98.8vw;
+    background: #C6FFDD;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fa091a, #fd3c1d, #f49613, #6d9516, #87b127, #189d26, #2dc089);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 98vw;
     height: 100vh;
-    object-fit: cover;
+}
+
+body.corpo {
+    background-color: #fff;
 }
 
 .navbar-custom {
@@ -66,13 +73,15 @@ body {
     font-weight: 600;
     border-radius: 5px;
 }
+
 .start-header {
     display: flex;
-    width: 98vw;
+    width: 98.8vw;
     height: 84vh;
     justify-content: center;
     margin-bottom: 5%;
 }
+
 .start-header .img-header {
     background-color: #f8f9fa;
     z-index: 10000;
@@ -85,6 +94,7 @@ body {
     border-top-right-radius: 50%;
     border-bottom-right-radius: 10%;
 }
+
 .start-header .img-header img {
     width: 130%;
 }
@@ -128,20 +138,31 @@ body {
 
 }
 
-main {
-    width: 98vw;
+.corpo {
+    background-color: #fff;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%);
+    width: 98.8vw;
+    height: 20%;
+
 }
+
+main {
+    width: 98.8vw;
+    background-color: #fff;
+}
+
 .empresa {
-    background-image: linear-gradient(180deg, #f8f9fa00 0%, #f8f9fa 100%);
     width: 98.8vw;
     height: 100%;
 }
-.b-empresa{
+
+.b-empresa {
     display: flex;
     align-items: center;
     justify-content: center;
     row-gap: 0.5rem;
 }
+
 h2 {
     font-size: 2rem;
     color: #19191a;
@@ -150,11 +171,13 @@ h2 {
     text-transform: uppercase;
     margin-bottom: 1%;
 }
-p{
+
+p {
     font-size: 1rem;
     color: #19191a;
     font-weight: 600;
 }
+
 .h-empresa {
     display: flex;
     align-items: center;
@@ -163,72 +186,85 @@ p{
     background-color: #feffff00;
     width: 80vw;
     height: 35vh;
-    margin-left: 10%!important;
+    margin-left: 10% !important;
     padding: 2%;
 }
-.h-empresa b{
+
+.h-empresa b {
     text-transform: uppercase;
 }
-.image-label-right{
+
+.image-label-right {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 94.7vw;
 }
-.image-label-right img{
+
+.image-label-right img {
     width: 20%;
     height: 20%;
     border-radius: 100%;
     margin-left: 13%;
     margin-bottom: 5%;
 }
-.image-label-right p{
+
+.image-label-right p {
     font-size: 0.9rem;
     font-weight: 800;
     text-transform: uppercase;
     margin-right: 15%;
     margin-left: 15%;
 }
-.image-label-left{
+
+.image-label-left {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     width: 94.7vw;
     flex-flow: row-reverse;
 }
-.image-label-left img{
+
+.image-label-left img {
     width: 20%;
     height: 20%;
     border-radius: 100%;
     margin-right: 13%;
     margin-bottom: 5%;
 }
-.image-label-left p{
+
+.image-label-left p {
     font-size: 0.9rem;
     font-weight: 800;
     text-transform: uppercase;
     margin-right: 15%;
     margin-left: 15%;
 }
-[data-anime]{
+
+[data-anime] {
     opacity: 0;
     transition: 1s;
 }
-[data-anime="right"]{
+
+[data-anime="right"] {
     transform: translate3d(50px, 0, 0);
 }
-[data-anime="left"]{
+
+[data-anime="left"] {
     transform: translate3d(-100px, 0, 0);
 }
-[data-anime].animate{
+
+[data-anime].animate {
     opacity: 1;
     transform: translate3d(0, 0, 0);
 }
-.catalogo{
+
+.catalogo {
     display: flex;
     justify-content: center;
 }
-button{
+
+button {
     background-color: #ff0000;
     color: #f8f9fa;
     padding: 2%;
@@ -242,12 +278,14 @@ button{
     font-weight: 700;
     margin-bottom: 5%;
 }
-button:hover{
+
+button:hover {
     background-color: #f33939;
-    color:#f8f9fa;
+    color: #f8f9fa;
     border-radius: #ff0000;
 }
-.img-parallax{
+
+.img-parallax {
     background: url(images/Copiadora\ e\ Impressora.png);
     background-color: rgba(7, 7, 7, 0.507);
     background-blend-mode: darken;
@@ -259,7 +297,8 @@ button:hover{
     align-items: center;
     flex-direction: column;
 }
-.parallax span{
+
+.parallax span {
     display: flex;
     padding: 0;
     font-size: 2rem;
@@ -269,39 +308,45 @@ button:hover{
     margin-top: 8%;
     justify-content: center;
 }
-.logo-omega img{
+
+.logo-omega img {
     display: flex;
     width: 100%;
     height: 50%;
     margin-top: 5%;
     justify-content: center;
 }
-.marcas{
+
+.marcas {
     background-color: #fff;
     width: 98.8vw;
     height: 60vh;
-    padding-top: 3%!important;
+    padding-top: 3% !important;
 }
-.titulo{
+
+.titulo {
     display: flex;
     align-items: center;
     justify-content: center;
     row-gap: 0.5rem;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: justify;
-    background-color:#feffff00;
+    background-color: #feffff00;
     width: 80vw;
-    margin-left: 10%!important;
+    margin-left: 10% !important;
     padding: 1%;
 }
+
 .mySwiper {
     width: 100%;
     height: 60%;
 }
+
 .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -319,7 +364,8 @@ button:hover{
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
- }
+}
+
 .swiper-slide img {
     display: flex;
     width: 40%;
@@ -327,31 +373,39 @@ button:hover{
     align-items: center;
     object-fit: cover;
 }
+
 .swiper-slide img:hover {
     transition: 1s;
     transform: scale(1.07);
 }
-.swiper-wrapper{
+
+.swiper-wrapper {
     width: 100%;
 }
-.swiper-slide{
+
+.swiper-slide {
     width: 100%;
 }
-.card{
-    border: 0px solid rgba(0,0,0,.125);
+
+.card {
+    border: 0px solid rgba(0, 0, 0, .125);
 }
-.contato{
+
+.contato {
     display: flex;
     justify-content: center;
     margin-bottom: 10%;
     align-content: center;
-    
+    background-color: #fff;
+
 }
+
 .contato #btn a {
     text-decoration: none;
     color: #f8f9fa;
 }
-.rodape{
+
+.rodape {
     display: flex;
     background-color: #ff0000;
     align-self: flex-start;
@@ -359,12 +413,14 @@ button:hover{
     height: 50vh;
     width: 98.8vw;
 }
-.link-rodape{
+
+.link-rodape {
     display: flex;
     align-items: flex-start;
     margin-left: 5%;
     margin-top: 0%;
 }
+
 .link-rodape.navbar-nav .active>.nav-link {
     color: #f8f9fa;
     font-size: 1rem;
@@ -396,28 +452,33 @@ button:hover{
     border-radius: 5px;
     width: 75%;
 }
-.logo-empresa{
+
+.logo-empresa {
     display: flex;
     justify-content: start;
     align-items: flex-start;
 
 }
-.logo-empresa img{
+
+.logo-empresa img {
     padding-top: 6%;
     padding-bottom: 6%;
     width: 70%;
 }
+
 .rodape-center {
     display: flex;
     margin-top: 2%;
     width: 40%;
     flex-direction: column;
 }
+
 .endereco {
     display: flex;
     flex-direction: row;
     font-size: 1.2rem;
 }
+
 .call {
     display: flex;
     flex-direction: row;
@@ -433,72 +494,84 @@ button:hover{
     text-decoration: none;
     text-transform: lowercase;
 }
+
 .social {
     display: flex;
     flex-direction: row;
     font-size: 1.2rem;
 }
+
 .icon-social {
     font-size: 2rem;
 }
+
 ion-icon {
     color: #f8f9fa;
     margin-right: 5%;
     margin-top: 2.2%;
 }
+
 .rodape-center .andress h3 {
     color: #f8f9fa;
     font-size: 1.2rem;
     text-transform: uppercase;
     font-weight: 600;
 }
-.rodape-center p{
+
+.rodape-center p {
     color: #f8f9fa;
     text-transform: uppercase;
     font-size: smaller;
     font-weight: 400;
     margin-top: 0.5%;
 }
+
 .rodape-right {
     margin-right: 3%;
 }
+
 .map {
     padding-top: 5%;
     display: flex;
     font-size: 0.6rem;
     align-items: flex-end;
-    justify-content:flex-end;
+    justify-content: flex-end;
     padding-bottom: 2%;
 }
+
 .developer {
     display: flex;
     font-size: 0.6rem;
     align-items: flex-end;
-    justify-content:center;
+    justify-content: center;
     background-color: #ff0000;
     width: 98.8vw;
     padding-top: 2%;
     padding-bottom: 1%;
 }
-.developer a{
+
+.developer a {
     color: #f8f9fa;
     text-transform: uppercase;
     text-decoration: none;
 }
+
 .back-to-top {
-    color:black;
+    color: black;
     position: fixed;
     z-index: 999;
     bottom: 8rem;
     right: 1.5rem;
-    display:none;
+    display: none;
 }
-.back-to-top:active, .back-to-top:focus, .back-to-top:hover {
+
+.back-to-top:active,
+.back-to-top:focus,
+.back-to-top:hover {
     text-decoration: none;
-    color:#1f201f;  
+    color: #1f201f;
 }
 
 .back-to-top ion-icon {
     font-size: 3em;
 }
-

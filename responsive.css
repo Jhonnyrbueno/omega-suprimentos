@@ -6,13 +6,13 @@
 
 @media (max-width: 1261px) {
     .start-header {
-        height: 74vh;
+        height: 55vh;
     }
 }
 
 @media (max-width: 1024px) {
     .start-header {
-        height: 70vh;
+        height: 60vh;
     }
     .start-header .img-header {
         margin-top: 9rem;
