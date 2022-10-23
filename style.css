@@ -18,7 +18,7 @@
 body {
     animation: gradient 15s ease infinite;
     /*background: linear-gradient(-45deg, #e33507, #fb3b07, #ee7752, #f7797d, #FBD786, #C6FFDD, #23d5ab, #23a6d5, #5f32ef, #1e0375, #150352) no-repeat;*/
-    background: linear-gradient(-45deg, #f7797d, #ee7752, #FBD786, #C6FFDD, #89e5e1) no-repeat;
+    background: linear-gradient(-45deg, #f7797d, #ee7752, #FBD786, #a9e8e5, #087bd4, #0825d4) no-repeat;
     background-size: 300% 300%;
     height: 100vh;
 }
@@ -90,10 +90,9 @@ body.corpo {
     width: 90vw;
     height: 84vh;
     justify-content: center;
-    margin-bottom: 5%;
 }
 
-/*.start-header .img-header {
+/* .start-header .img-header {
     background-color: #f8f9fa;
     z-index: 10000;
     width: 17rem;
@@ -133,7 +132,7 @@ body.corpo {
 
 .text-header h1 {
     -webkit-animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: text-pop-up-top 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
  @-webkit-keyframes text-pop-up-top {
@@ -177,7 +176,7 @@ body.corpo {
     font-weight: 500;
     text-shadow: .1rem .1rem 3px rgba(0, 0, 0, 7);
     opacity: 0.8;
-    animation: moveBanner 2s forwards;
+    animation: moveBanner 3s forwards;
 }
 
 @keyframes moveBanner {
