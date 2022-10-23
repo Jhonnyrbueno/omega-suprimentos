@@ -16,16 +16,27 @@
 }
 
 body {
-    background: #C6FFDD;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #fa091a, #fd3c1d, #f49613, #6d9516, #87b127, #189d26, #2dc089);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    width: 98vw;
+    animation: gradient 15s ease infinite;
+    /*background: linear-gradient(-45deg, #e33507, #fb3b07, #ee7752, #f7797d, #FBD786, #C6FFDD, #23d5ab, #23a6d5, #5f32ef, #1e0375, #150352) no-repeat;*/
+    background: linear-gradient(-45deg, #f7797d, #ee7752, #FBD786, #C6FFDD, #89e5e1) no-repeat;
+    background-size: 300% 300%;
     height: 100vh;
 }
 
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+
+}
 body.corpo {
     background-color: #fff;
 }
@@ -76,13 +87,13 @@ body.corpo {
 
 .start-header {
     display: flex;
-    width: 98.8vw;
+    width: 90vw;
     height: 84vh;
     justify-content: center;
     margin-bottom: 5%;
 }
 
-.start-header .img-header {
+/*.start-header .img-header {
     background-color: #f8f9fa;
     z-index: 10000;
     width: 17rem;
@@ -93,56 +104,91 @@ body.corpo {
     border-bottom-left-radius: 50%;
     border-top-right-radius: 50%;
     border-bottom-right-radius: 10%;
-}
+}*/
 
 .start-header .img-header img {
-    width: 130%;
+    width: 20rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
 }
 
 .text-header {
     display: flex;
     flex-direction: column;
-    margin-left: 15rem;
-    margin-top: 12rem;
+    margin-left: 6rem;
+    margin-top: 10rem;
 }
 
 .text-header h1 {
     color: #f8f9fa;
-    font-size: 2.7rem;
-    font-weight: 300;
+    font-size: 5.5rem;
+    font-weight: 900;
     text-shadow: .1rem .2rem 2px rgba(0, 0, 0, 4);
-    line-height: 3.5rem;
-    margin-bottom: 2rem;
+    line-height: 5.5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
     opacity: 0.8;
-    animation: moveBanner 1s forwards;
 
 }
 
+.text-header h1 {
+    -webkit-animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: text-pop-up-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes text-pop-up-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: none;
+    }
+    100% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+  }
+  @keyframes text-pop-up-top {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: none;
+    }
+    100% {
+      -webkit-transform: translateY(-50px);
+              transform: translateY(-50px);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+      text-shadow: 0 1px 0 #363535, 0 2px 0 #363535, 0 3px 0 #363535, 0 4px 0 #363535, 0 5px 0 #363535, 0 6px 0 #363535, 0 7px 0 #363535, 0 8px 0 #363535, 0 9px 0 #363535, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+  }
+  
+  
+
 .text-header p {
     color: #f8f9fa;
-    font-size: 1rem;
-    text-shadow: .1rem .2rem 2px rgba(0, 0, 0, 4);
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-shadow: .1rem .1rem 3px rgba(0, 0, 0, 7);
     opacity: 0.8;
-    animation: moveBanner 1s forwards;
+    animation: moveBanner 2s forwards;
 }
 
 @keyframes moveBanner {
     0% {
-        transform: translateY(50rem) rotateY(-100deg);
+        transform: translateX(50rem) rotateX(-100deg);
     }
 
     100% {
         transform: translateX(0) rotateX(0);
         opacity: 1;
     }
-
-}
-
-.corpo {
-    background-color: #fff;
-    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%,rgba(255,255,255,1) 100%);
-    width: 98.8vw;
-    height: 20%;
 
 }
 
@@ -557,7 +603,7 @@ ion-icon {
 }
 
 .back-to-top {
-    color: black;
+    color: #4f0f40;
     position: fixed;
     z-index: 999;
     bottom: 8rem;
@@ -569,9 +615,9 @@ ion-icon {
 .back-to-top:focus,
 .back-to-top:hover {
     text-decoration: none;
-    color: #1f201f;
+    color: #afb3b0;
 }
 
-.back-to-top ion-icon {
+.back-to-top i {
     font-size: 3em;
 }
